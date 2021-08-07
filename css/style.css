@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a, h1, h2, h3 {
+    font-family: 'Anglecia Pro', sans-serif;
+    text-decoration: none;
+    color: #514949;
+}
+
+body {
+    background-color: #D2EEA1;
+}
+
+header {
+    display: flex;
+    height: 116px;
+    align-items: stretch;
+    padding: 0 79px 0 78px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 60px;
+    background-size: 60px 60px;
+    background-image: url("/images/logo-01.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item:first-child {
+    margin: 0 32.5px 0 0;
+}
+
+.navbar-item {
+    margin: 0 32.5px 0 32.5px;
+}
+
+.navbar-item:last-child {
+    margin: 0 0 0 32.5px;
+}
+
+.navbar-item-a {
+    font-size: 18px;
+}
+
+.navbar-item-a:hover {
+    color: #FD5A82;
+    font-weight: bold;
+}
+
+.right-bar {
+    display: flex;
+    align-items: center;
+}
+
+.contacts {
+    margin-left: 16.5px;
+}
+
+.bags {
+    margin-left: 24px;
+}
+
+main {
+    padding: 0 79px 0 78px;
+}
+
+.main-block {
+    display: flex;
+    height: 556px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    background-image: url("/images/background-content-01.png");
+    background-size: cover;
+    justify-content: space-between;
+}
+
+.main-block-content {
+    width: 500px;
+    padding: 110px 0 61px 104px;
+}
+
+.main-block-content-h1 {
+    font-size: 44px;
+    margin-bottom: 50px;
+}
+
+.main-block-content-h2 {
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.main-block-content-h3 {
+    font-family: Cambria;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 51px;
+}
+
+.main-block-content-button {
+    display: flex;
+    width: 237px;
+    height: 70px;
+    border-radius: 35px;
+    background: #FF4471;
+    align-items: center;
+}
+
+.main-block-content-button-a {
+    display: block;
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dominant {
+    width: 556px;
+    height: 100%;
+    padding: 50px;
+    margin-right: 50px;
+    background-image: url("/images/dominant.png");
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer {
+    display: flex;
+    height: 88px;
+    justify-content: flex-end;
+    padding: 26.25px 79px 0 78px;
+}
+
+.footer-instagram {
+
+}
+
+@font-face {
+    font-family: 'Anglecia Pro';
+    src: local('Anglecia Pro Display Regular'), local('Anglecia-Pro-Display-Regular'),
+        url('/fonts/AngleciaProDisplay-Regular.woff2') format('woff2'),
+        url('/fonts/AngleciaProDisplay-Regular.woff') format('woff'),
+        url('/fonts/AngleciaProDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
